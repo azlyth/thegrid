@@ -3,15 +3,19 @@
 As it stands, socket.io is configured to only work with the "websocket" transport, because any other method of transport is too slow for this kind of webapp.
 
 
-To get started simply install the dependencies, fill in your host, and start the server
+To get started simply install the dependencies, 
   
     npm install
     node grid-server.js
 
-grid.html, line 70:
-    <script src="http://HOST:8080/socket.io/socket.io.js" type="text/javascript"></script>
+change the hosts at,
 
-grid-client.js, line 9:
-    HOST_URI: 'http://HOST:8080',
+    grid.html, line 70:
+    grid-client.js, line 9:
+
+and start the server
+
+    node grid-server.js
+
 
 Then open `grid.html` in various browser windows.
