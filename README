@@ -9,8 +9,8 @@ To get started simply install the dependencies,
 
 change the hosts at,
 
-    grid.html, line 70:
-    grid-client.js, line 9:
+    grid.html, line 70
+    grid-client.js, line 9
 
 and start the server
 
