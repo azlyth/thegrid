@@ -6,7 +6,6 @@ As it stands, socket.io is configured to only work with the "websocket" transpor
 To get started simply install the dependencies, 
   
     npm install
-    node grid-server.js
 
 change the hosts at,
 
