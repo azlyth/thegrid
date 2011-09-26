@@ -1,3 +1,11 @@
 "thegrid" was a quick project which was created to test HTML5's <canvas>, node.js, and socket.io.
 
 As it stands, socket.io is configured to only work with the "websocket" transport, because any other method of transport is too slow for this kind of webapp.
+
+
+To get started simply install the dependencies and start the server
+  
+    npm install
+    node grid-server.js
+    
+Then open `grid.html` in various browser windows.
