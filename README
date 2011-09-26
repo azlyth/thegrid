@@ -7,7 +7,7 @@ To get started simply install the dependencies,
   
     npm install
 
-change the hosts at,
+change the hosts,
 
     grid.html, line 70
     grid-client.js, line 9
