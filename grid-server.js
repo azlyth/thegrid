@@ -16,6 +16,12 @@ var WORLD_W = 1500,
 app.listen(8080);
 var io = sio.listen(app);
 
+io.configure('production', function(){
+    io.set('log level', 1);
+    io.set('transports', ['websocket']);
+});
+
+
 io.sockets.on('connection', function(socket){
     socket.ip = socket.handshake.address.address;
     socket.on('message', function(message){
